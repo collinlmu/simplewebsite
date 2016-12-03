@@ -67,11 +67,22 @@ width: 30%;
 }
 
 @media screen and (max-width: 480px){
+  .header{
+    margin: auto;
+    text-align: center;
+  }
   .sidebar{
     float: none;
+    width: auto;
+    height: 215px;
+  }
+  .sidebar h2{
+    text-align: center;
   }
   .main{
     float: none;
-    height: 2000px;
+    height: 1800px;
+    width: 80%;
+    margin: auto;
   }
 }
