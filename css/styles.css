@@ -47,7 +47,7 @@ margin: 0;
 }
 .sidebar{
 background-color: #CECCCD;
-float: left;
+float: right;
 height: 600px;
 width: 30%;
 }
@@ -64,4 +64,14 @@ width: 30%;
   margin: 0;
   color: #FFF;
   padding-left: 35px;
+}
+
+@media screen and (max-width: 480px){
+  .sidebar{
+    float: none;
+  }
+  .main{
+    float: none;
+    height: 2000px;
+  }
 }
